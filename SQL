@@ -1,0 +1,17 @@
+
+Create database Task
+use task
+create table students
+(
+StudentID int identity primary key,
+StudentName varchar(30) not null,
+Email varchar(30) not null,
+Course varchar(20) not null,
+Marks int not null
+)
+
+insert into students values ('Vasudha','Vasudha@gmail.com','Dot Net',90)
+
+select * from students
+
+
